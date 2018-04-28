@@ -1,9 +1,8 @@
 # Making-Book    
 
 Guidelines for creating a book in a form suitable for use by the application PiBookApp  
-
---
-
+  
+--  
 - Copy or fork book folder 
 - Στον φάκελο `book` υπάρχουν τα αρχεία`file1.md`, `file2.md` και `file3.md` τα οποία θα αποτελέσουν τα δοκιμαστικά αρχεία του βιβλίου μας. Προσοχή στα ονόματα των αρχείων, θα πρέπει να είναι αλφαβητικά ταξινομημένα με την σειρά που θέλουμε να εμφανιστούν στο βιβλίο.
 - Ανοίγουμε τα 3 αυτά αρχεία και τροποποιούμε το περιεχόμενό τους όπως επιθυμούμε.
@@ -19,5 +18,5 @@ Guidelines for creating a book in a form suitable for use by the application PiB
 - Εγκαθιστούμε την μηχανή ***WeasyPrint*** (for PDF output) σύμφωνα με τις οδηγίες που υπάρχουν [εδώ] (http://weasyprint.readthedocs.io/en/latest/install.html). Προσοχή στην έκδοση του λειτουργικού συστήματος που χρησιμοποιείτε. Ακουλοηθήστε τα αντίστοιχα βήματα. 
 - Εκγαθιστούμε το [Pandoc](http://pandoc.org/) (for html export)
 - Ανοίγουμε με έναν κειμενογράφο το αρχείο `run-MacOS` ή `run-Win` αν χρησιμοποιούμε MacOS ή Windows αντίστοιχα και δίνουμε στην μεταβλητή `bookName` το όνομα του βιβλίου μας `(π.χ bookName = PiBook)`.  
-- Εκτελούμε το `Makefile` αρχείο και στον φάκελο `pdf` παίρνουμε το `bookName.pdf`.  
+- Εκτελούμε το `run-MacOS` η `run-Win` αρχείο και στον φάκελο `pdf` παίρνουμε το `bookName.pdf`.  
 
