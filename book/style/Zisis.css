@@ -1,0 +1,26 @@
+@page {
+    margin: 3cm 2cm;
+    padding-left: 1.5cm;
+    @bottom-center {
+        content: "Pi Book Example";
+        width: 100%;
+        vertical-align: bottom;
+        border-bottom: .5pt solid;
+        margin-bottom: .7cm;
+    }
+    @top-right {
+    font-size: 200%;
+    text-align: center;
+    vertical-align: middle;
+    content: "("counter(page)")";
+    margin: 10pt
+    }
+}
+html, body { font: 12pt/1.25 Fontin, serif !important; -weasy-hyphens: auto
+             hyphens: auto; }
+body { text-align: justify; padding: 0 !important;
+       background: none !important; }
+hr.navbar { display: none }
+h1 { page-break-before: auto !important; -weasy-bookmark-level: none;
+     bookmark-level: none; margin-top: 0 !important; }
+h1, h2, h3, h4 { font-family: inherit !important }
