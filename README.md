@@ -263,7 +263,7 @@ header: no
 
 ### Installation and Configuration of PiBookApp
 
-- Download PiBookApp from [PiBookApp repository](...) **(Δεν είναι ακόμα στο git)**
+- Download PiBookApp from [PiBookApp repository](https://github.com/ziselos/SDY-InteractiveBook)
 - Edit file `Definitions.java`. Αντικαθιστούμε τα Jekyll Urls με τα δικά μας
 
 ```
@@ -280,7 +280,7 @@ header: no
 - Έχοντας αφήσει τα υπόλοιπα ονόματα ίδια, επιλέγουμε στο Android Studio `clean` και στην συνέχεια `run`. Η εκτέλεση πρέπει να γίνει σε αληθινή συσκευή και όχι στον emulator του Android Studio. Φροντίζουμε επίσης **η συσκευή να είναι συνδεδεμένη στο ίδιο δίκτυο με τον υπολογιστή που τρέχουμε το jekyll website**. 
 - Η εφαρμοηή PiBookApp ανοίγει στην συσκευή και είναι έτοιμη για λειτουργία. Σε περίπτωση *network error*, μιας και δεν θα υπάρχουν σελίδες για επαύξηση, η εφαρμογή εμφανίζει αντίστοιχο μήνυμα σφάλματος και παραμένει στην Splah Screen. 
 
-##Dependencies
+## Dependencies
 Για να χρησιμοποιήσετε το PiBookSystem πρέπει στον υπολογιστή σας να έχετε εγκατεστημένα τα παρακάτω λογισμικά:
 
 - [Android Studio](https://developer.android.com/studio) (for configuration of PiBookApp)
