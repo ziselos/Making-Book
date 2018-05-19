@@ -1,12 +1,12 @@
-#Οδηγίες δημιουργίας διαδραστικού βιβλίου χρησιμοποιώντας το PiBook system
+# Οδηγίες δημιουργίας διαδραστικού βιβλίου χρησιμοποιώντας το PiBook system
 
 --
 
 Το σύστημα προσφέρει την δυνατότητα δημιουργίας-παραγωγής ενός βιβλίου σε μορφή pdf και την επαύξησή του μέσω της εφαρμογής PiBookApp και της αντίστοιχης ιστοσελίδας του βιβλίου.
 
-##Usage and documentation
+## Usage and documentation
 
-###Δημιουργία βιβλίου σε μορφή pdf
+### Δημιουργία βιβλίου σε μορφή pdf
 - Copy or fork book folder 
 - Στον φάκελο `book` εισάγουμε τα md αρχεία με το περιεχόμενο του βιβλίου μας. Σβήνουμε τα `file1.md`, `file2.md` και `file3.md`. Προσοχή στα ονόματα των νέων αρχείων, θα πρέπει να είναι αλφαβητικά ταξινομημένα με την σειρά που θέλουμε να εμφανιστούν στο βιβλίο.  
 - Τροποποιούμε όπως επιθυμούμε το `style.css` αρχείο στον φάκελο `style`. Αφήνουμε αμετάβλητη την μορφή που εμφανίζεται ο αριθμός σελίδας (πάνω δεξιά και μέσα σε παρενθέσεις) γιατί θα χρησιμοποιηθεί στην συνέχεια από την εφαρμογή **PiBookApp**.  
@@ -283,9 +283,6 @@ header: no
 ##Dependencies
 Για να χρησιμοποιήσετε το PiBookSystem πρέπει στον υπολογιστή σας να έχετε εγκατεστημένα τα παρακάτω λογισμικά:
 
-- [Jekyll](https://jekyllrb.com/) (and which requires Ruby and Bundler)
-- [WeasyPrint](http://weasyprint.readthedocs.io/en/latest/install.html) (for PDF output)
-- [Pandoc](http://pandoc.org/) (for html export)
 - [Android Studio](https://developer.android.com/studio) (for configuration of PiBookApp)
 
-Και φυσικά έναν καλό κειμενογράφο όπως [Sublime](https://www.sublimetext.com/), [Brackets](http://brackets.io/) or [Atom](https://atom.io/).
+- Έναν καλό κειμενογράφο όπως [Sublime](https://www.sublimetext.com/), [Brackets](http://brackets.io/) or [Atom](https://atom.io/).
