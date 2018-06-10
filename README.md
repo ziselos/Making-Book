@@ -21,8 +21,8 @@
 
 - Ανοίγουμε με έναν κειμενογράφο το αρχείο `Makefile` και δίνουμε στην μεταβλητή `bookName` το όνομα του βιβλίου μας `(π.χ bookName = PiBook)`.  
 - Εκτελούμε το `Makefile` αρχείο και στον φάκελο `pdf` παίρνουμε το `bookName.pdf`.  
-- Εγκαθιστούμε την μηχανή WeasyPrint (for PDF output) σύμφωνα με τις οδηγίες που υπάρχουν [εδώ] (http://weasyprint.readthedocs.io/en/latest/install.html). Προσοχή στην έκδοση του λειτουργικού συστήματος που χρησιμοποιείτε. Ακουλοηθήστε τα αντίστοιχα βήματα.
-- Εκγαθιστούμε το Pandoc (for html export)
+- Εγκαθιστούμε την μηχανή WeasyPrint (for PDF output) σύμφωνα με τις οδηγίες που υπάρχουν [εδώ] (http://weasyprint.readthedocs.io/en/latest/install.html). Προσοχή στην έκδοση του λειτουργικού συστήματος που χρησιμοποιείτε. Ακολουθούμε τα αντίστοιχα βήματα.
+- Εκγαθιστούμε το Pandoc (for html export) σύμφωνα με τις [οδηγίες](https://pandoc.org/installing.html)
 - Ανοίγουμε με έναν κειμενογράφο το αρχείο `run-MacOS` ή `run-win` αν χρησιμοποιούμε MacOS ή Windows αντίστοιχα και δίνουμε στην μεταβλητή `bookName` το όνομα του βιβλίου μας (π.χ bookName = PiBook). Αν δουλεύουμε σε περιβάλλον Windows, τότε στο αρχείο run-win επιπρόσθετα δηλώνουμε στην θέση των file1.md, file2.md κ.λ.π τα δικά μας md αεχεία.
 Εκτελούμε το run-MacOS η run-win αρχείο και στον φάκελο pdf παίρνουμε το bookName.pdf.
 
