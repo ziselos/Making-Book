@@ -264,7 +264,7 @@ header: no
 
 ### Installation and Configuration of PiBookApp
 
-- Download PiBookApp from [PiBookApp repository](https://github.com/ziselos/SDY-InteractiveBook)
+- Download PiBookApp from [PiBookApp repository](https://github.com/ziselos/PiBookApp)
 - Edit file `Definitions.java`. Αντικαθιστούμε τα Jekyll Urls με τα δικά μας
 
 ```
